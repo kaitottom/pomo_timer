@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:pomo_timer/pomodoro_setting.dart';
-import 'package:pomo_timer/pomodoro_timer.dart';
-import 'package:pomo_timer/goal_set.dart';
-import 'package:pomo_timer/providers.dart';
+import 'pomodoro_setting.dart';
+import 'pomodoro_timer.dart';
+import 'goal_set.dart';
+import 'providers.dart';
+import 'models/pomodoro_settings.dart';
+import 'models/timer_info.dart';
 
-// ファイル分割前
 void main() {
   final app = MyMainPage();
   final scope = ProviderScope(child: app);

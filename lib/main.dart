@@ -7,6 +7,7 @@ import 'package:pomo_timer/pomodoro_timer.dart';
 import 'package:pomo_timer/goal_set.dart';
 import 'package:pomo_timer/providers.dart';
 
+// ファイル分割前
 void main() {
   final app = MyMainPage();
   final scope = ProviderScope(child: app);
